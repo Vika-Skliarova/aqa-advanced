@@ -1,5 +1,5 @@
-let length = 10;
-let width = 15;
-let areaRectangle = length * width;
+const length = 10;
+const width = 15;
+const areaRectangle = length * width;
 
 console.log(areaRectangle);

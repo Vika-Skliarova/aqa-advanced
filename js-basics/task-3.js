@@ -1,4 +1,4 @@
-let userAge = 21;
+const userAge = 21;
 let isAdult;
 
 if (userAge > 18) {
@@ -6,5 +6,7 @@ if (userAge > 18) {
 } else {
     isAdult = false;
 }
+
+// const isAdult = userAge > 18; 
 
 console.log(isAdult);
