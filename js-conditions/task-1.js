@@ -1,4 +1,4 @@
-const averageGrade = 85;
+const averageGrade = 85
 
 if (averageGrade < 60) {
     console.log('Незадовільно');
@@ -10,4 +10,6 @@ if (averageGrade < 60) {
     console.log('Дуже добре');
 } else if (averageGrade >= 91 && averageGrade <= 100) {
     console.log('Відмінно');
+} else {
+     console.log('Оцінка відсутня, введіть значення');
 }
