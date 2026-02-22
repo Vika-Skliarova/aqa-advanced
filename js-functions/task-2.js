@@ -4,11 +4,11 @@ function checkAge(age) {
     } else {
         return false;
     }
-}
+};
 
 function checkAge2(age) {
     return age >= 18;
-}
+};
 
 
 console.log(checkAge(25));

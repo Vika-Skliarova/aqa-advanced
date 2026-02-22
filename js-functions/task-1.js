@@ -2,12 +2,12 @@
 function calculateArea(width, height) {
     let area = width * height;
     return area;
-}
+};
 
 // Function expression
 const areaRectangle = function(width, height) {
     return width * height;
-} 
+};
 
 // Arrow function expression
 const areaRectangle2 = (width, height) => width * height;
