@@ -1,5 +1,5 @@
 function handleNum(number, func1, func2) {
-    if (isNaN(number)) {
+    if (typeof number !== 'number') {
         console.error('Error: provided value is not a valid number');
         return;
     }
@@ -23,3 +23,4 @@ function handleOdd() {
 handleNum(5, handleEven, handleOdd);
 handleNum(4, handleEven, handleOdd);
 handleNum('not a number', handleEven, handleOdd);
+handleNum('333', handleEven, handleOdd);
