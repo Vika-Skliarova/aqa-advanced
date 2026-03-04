@@ -22,5 +22,4 @@ function handleOdd() {
 
 handleNum(5, handleEven, handleOdd);
 handleNum(4, handleEven, handleOdd);
-
-handleNum(handleEven, handleEven, handleOdd);
+handleNum('not a number', handleEven, handleOdd);
