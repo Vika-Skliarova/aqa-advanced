@@ -11,16 +11,10 @@ function getUser() {
         .catch(error => console.log('Error:', error));
 }
 
-// Promise.all
 Promise.all([getTodo(), getUser()])
-    .then(([todo, user]) => {
-        console.log('Promise All:', todo, user);
-    }
-);
+    .then(result => console.log('Promise All result:', result))
+    .catch(error => console.log('Race error:', error));
 
-// Promise.race
 Promise.race([getTodo(), getUser()])
-    .then(result => {
-        console.log('Promise Race:', result);
-    }
-);
+    .then(result => console.log('Promise Race result:', result))
+    .catch(error => console.log('Race error:', error));
