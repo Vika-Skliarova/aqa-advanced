@@ -15,7 +15,6 @@ const oldest = Book.getOldestBook([book1, book2, ebook1, ebook2]);
 console.log('Oldest book is:');
 oldest.printInfo();
 
-
 // return an instance of the EBook
 const ebookFromBook = Ebook.copyBook(book1, 'MOBI');
 ebookFromBook.printInfo();

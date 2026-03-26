@@ -2,8 +2,7 @@ let valueText = 'JavaScript primitive data types';
 let valueNumber = 12345;
 let valueBoolean = true;
 let valueNull = null;
-let valueUndefined;
-
+let valueUndefined = undefined;
 
 console.log(valueText);
 console.log(valueNumber);
